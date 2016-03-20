@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tank"
+    tools:context="software_project.simulationapp.MainActivity">
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivGreen1"
+        android:src="@drawable/green"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivGreen2"
+        android:src="@drawable/green"
+        android:visibility="invisible"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ivRed1"
+        android:layout_toEndOf="@+id/ivRed1" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivGreen3"
+        android:src="@drawable/green"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/ivRed2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="130dp"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivGreen4"
+        android:src="@drawable/green"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/ivRed3"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivGreen5"
+        android:src="@drawable/green"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/ivRed6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginRight="128dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivGreen6"
+        android:src="@drawable/green"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/ivRed4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginRight="78dp" />
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivRed1"
+        android:src="@drawable/red"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivRed2"
+        android:src="@drawable/red"
+        android:visibility="visible"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ivRed1"
+        android:layout_toEndOf="@+id/ivRed1" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivRed3"
+        android:src="@drawable/red"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/ivRed2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="130dp"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivRed4"
+        android:src="@drawable/red"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/ivRed3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivRed5"
+        android:src="@drawable/red"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/ivRed6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginRight="128dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivRed6"
+        android:src="@drawable/red"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/ivRed4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginRight="78dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/ivGreen1"
+        android:layout_alignLeft="@+id/ivGreen1"
+        android:layout_alignStart="@+id/ivGreen1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView2"
+        android:layout_marginTop="150dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView3"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/ivGreen4"
+        android:layout_toStartOf="@+id/ivGreen4" />
+
+</RelativeLayout>
