@@ -145,7 +145,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Small Text"
-        android:id="@+id/textView"
+        android:id="@+id/wLevel"
         android:layout_marginTop="80dp"
         android:layout_below="@+id/ivGreen1"
         android:layout_alignLeft="@+id/ivGreen1"
@@ -156,9 +156,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Small Text"
-        android:id="@+id/textView2"
+        android:id="@+id/wTemp"
         android:layout_marginTop="150dp"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/wLevel"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="50dp"/>
@@ -168,9 +168,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Small Text"
-        android:id="@+id/textView3"
+        android:id="@+id/hTemp"
         android:layout_marginTop="33dp"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/wTemp"
         android:layout_toLeftOf="@+id/ivGreen4"
         android:layout_toStartOf="@+id/ivGreen4" />
 
